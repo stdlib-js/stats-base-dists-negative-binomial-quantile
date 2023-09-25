@@ -65,13 +65,18 @@ holds, where `F` is the cumulative distribution function (CDF) of a negative bin
 ## Usage
 
 ```javascript
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-quantile@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-negative-binomial-quantile/tags). For example,
+
+```javascript
 import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-quantile@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-quantile@v0.1.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-quantile@esm/index.mjs';
 ```
 
 #### quantile( k, r, p )
@@ -175,7 +180,7 @@ y = myquantile( 0.9 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-quantile@v0.1.0-esm/index.mjs';
+import quantile from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-quantile@esm/index.mjs';
 
 var i;
 var k;
