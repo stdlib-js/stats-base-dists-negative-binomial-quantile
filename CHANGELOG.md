@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2025-12-13)
 
 <section class="issues">
 
@@ -24,8 +24,14 @@ This release closes the following issue:
 
 <details>
 
+-   [`1122999`](https://github.com/stdlib-js/stdlib/commit/1122999e01e55ebd060cead63acfdfd89d01a72f) - **docs:** replace manual `for` loop in examples [(#9019)](https://github.com/stdlib-js/stdlib/pull/9019) _(by Harsh Yadav)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
--   [`39f6970`](https://github.com/stdlib-js/stdlib/commit/39f69705826500421b402f732d6a16e204f54dca) - **bench:** refactor random number generation in `stats/base/dists/negative-binomial` [(#5193)](https://github.com/stdlib-js/stdlib/pull/5193) _(by GK Bishnoi)_
+-   [`39f6970`](https://github.com/stdlib-js/stdlib/commit/39f69705826500421b402f732d6a16e204f54dca) - **bench:** refactor random number generation in `stats/base/dists/negative-binomial` [(#5193)](https://github.com/stdlib-js/stdlib/pull/5193) _(by Gopi Kishan)_
 
 </details>
 
@@ -37,9 +43,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
--   GK Bishnoi
+-   Gopi Kishan
+-   Harsh Yadav
 -   Philipp Burckhardt
 
 </section>
